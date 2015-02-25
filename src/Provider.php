@@ -12,7 +12,9 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function getAuthUrl($state)
     {
-        return $this->buildAuthUrlFromBase('https://bitly.com/oauth/authorize', $state);
+        return $this->buildAuthUrlFromBase(
+            'https://bitly.com/oauth/authorize', $state
+        );
     }
 
     /**
@@ -28,7 +30,9 @@ class Provider extends AbstractProvider implements ProviderInterface
      */
     protected function getUserByToken($token)
     {
-        $response = $this->getHttpClient()->get('https://api-ssl.bitly.com/v3/user/info?access_token='.$token);
+        $response = $this->getHttpClient()->get(
+            'https://api-ssl.bitly.com/v3/user/info?access_token='.$token
+        );
 
         return json_decode($response->getBody(), true)['data'];
     }
@@ -39,11 +43,9 @@ class Provider extends AbstractProvider implements ProviderInterface
     protected function mapUserToObject(array $user)
     {
         return (new User())->setRaw($user)->map([
-            'id'       => null,
-            'nickname' => $user['display_name'],
-            'name'     => $user['full_name'],
-            'email'    => null,
-            'avatar'   => $user['profile_image'],
+            'id' => null, 'nickname' => $user['display_name'],
+            'name' => $user['full_name'], 'email' => null,
+            'avatar' => $user['profile_image'],
         ]);
     }
 }
