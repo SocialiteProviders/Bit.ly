@@ -1,10 +1,10 @@
 # Bit.ly OAuth2 Provider for Laravel Socialite
 
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/SocialiteProviders/Bit.ly.svg?style=flat-square)](https://scrutinizer-ci.com/g/SocialiteProviders/Bit.ly/?branch=master)
-[![Latest Stable Version](https://img.shields.io/packagist/v/socialiteproviders/bit.ly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bit.ly)
-[![Total Downloads](https://img.shields.io/packagist/dt/socialiteproviders/bit.ly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bit.ly)
-[![Latest Unstable Version](https://img.shields.io/packagist/vpre/socialiteproviders/bit.ly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bit.ly)
-[![License](https://img.shields.io/packagist/l/socialiteproviders/bit.ly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bit.ly)
+[![Latest Stable Version](https://img.shields.io/packagist/v/socialiteproviders/bitly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bitly)
+[![Total Downloads](https://img.shields.io/packagist/dt/socialiteproviders/bitly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bitly)
+[![Latest Unstable Version](https://img.shields.io/packagist/vpre/socialiteproviders/bitly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bitly)
+[![License](https://img.shields.io/packagist/l/socialiteproviders/bitly.svg?style=flat-square)](https://packagist.org/packages/socialiteproviders/bitly)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
