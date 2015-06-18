@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Bitly;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;

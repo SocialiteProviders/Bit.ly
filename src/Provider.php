@@ -1,4 +1,5 @@
 <?php
+
 namespace SocialiteProviders\Bitly;
 
 use Laravel\Socialite\Two\AbstractProvider;
@@ -34,7 +35,7 @@ class Provider extends AbstractProvider implements ProviderInterface
             'https://api-ssl.bitly.com/v3/user/info?access_token='.$token
         );
 
-        return json_decode($response->getBody(), true)['data'];
+        return json_decode($response->getBody()->getContents(), true)['data'];
     }
 
     /**
